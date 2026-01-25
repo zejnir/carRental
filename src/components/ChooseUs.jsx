@@ -9,6 +9,7 @@ function ChooseUs() {
       <section className="choose-section">
         <div className="container">
           <div className="choose-container">
+            {/* TODO: This image is horible tbh */}
             <img
               className="choose-container__img"
               src={MainImg}
@@ -33,6 +34,7 @@ function ChooseUs() {
               </div>
               <div className="text-container__right">
                 <div className="text-container__right__box">
+                  {/* TODO: I need blue icons here, maybe u can use this site for icons: https://undraw.co/ */}
                   <img src={Box1} alt="car-img" />
                   <div className="text-container__right__box__text">
                     <h4>Cross Country Drive</h4>

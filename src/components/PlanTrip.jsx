@@ -15,6 +15,7 @@ function PlanTrip() {
 
             <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
+                {/* TODO: I need blue icons here, maybe u can use this site for icons: https://undraw.co/ */}
                 <img src={SelectCar} alt="icon_img" />
                 <h3>Select Car</h3>
                 <p>

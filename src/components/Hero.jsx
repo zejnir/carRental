@@ -57,6 +57,7 @@ function Hero() {
               </div>
             </div>
 
+            {/* TODO: I don't want this orange car here, can we find another image? */}
             {/* img */}
             <img
               src={HeroCar}

@@ -26,6 +26,7 @@ function AboutSection() {
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
+                  {/* TODO: I need blue icons here, maybe u can use this site for icons: https://undraw.co/ */}
                   <img src={Box1} alt="car-icon" />
                   <span>
                     <h4>20</h4>
