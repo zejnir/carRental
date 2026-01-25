@@ -8,6 +8,21 @@
   position: relative;
 }
 
+@media (max-width: 800px) {
+  .hero-section {
+    padding-top: 0;
+    height: 100vh;
+  }
+
+  .hero-content__text {
+    margin-top: 0;
+  }
+
+  .hero-content__car-img {
+    margin-top: 0;
+  }
+}
+
 .bg-shape {
   position: absolute;
   top: 0;
@@ -87,10 +102,11 @@
       }
 
       &__book-ride {
+        color: white;
         background-color: $text-orange;
         padding: 1.8rem 3rem;
         border-radius: 0.3rem;
-        box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+        box-shadow: 0 10px 15px 0 rgba(82, 148, 255, 0.4);
         transition: all 0.3s;
         border: 2px solid $text-orange;
 
@@ -99,8 +115,8 @@
         }
 
         &:hover {
-          box-shadow: 0 10px 15px 0 rgb(255 83 48 / 60%);
-          background-color: #fa4226;
+          box-shadow: 0 10px 15px 0 rgba(82, 148, 255, 0.6);
+          background-color: #71a5f8;
         }
       }
 
@@ -138,17 +154,27 @@
   color: white;
   background-color: $text-orange;
   border: 3px solid white;
-  width: 2rem;
-  height: 2rem;
+  width: 3.6rem;
+  height: 3.6rem;
   bottom: 5rem;
   right: 5rem;
-  z-index: 20;
+  z-index: 100010;
   display: none;
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 0.6rem;
   cursor: pointer;
+}
+
+.scroll-up i {
+  color: #ffffff !important;
+}
+
+.scroll-up svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: block;
 }
 
 .show-scroll {

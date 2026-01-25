@@ -77,12 +77,12 @@
       color: white;
       padding: 1.5rem 3rem;
       border-radius: 3px;
-      box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+      box-shadow: 0 10px 15px 0 rgba(82, 148, 255, 0.4);
       transition: all 0.3s;
 
       &:hover {
-        box-shadow: 0 10px 15px 0 rgb(255 83 48 / 50%);
-        background-color: #fa4226;
+        box-shadow: 0 10px 15px 0 rgba(82, 148, 255, 0.4);
+        background-color: #71a5f8;
       }
     }
 
@@ -100,12 +100,23 @@
   cursor: pointer;
   transition: all 0.3s;
 
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  z-index: 100005;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 0.6rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
   &:hover {
     color: $text-orange;
   }
 
   @media (max-width: 1000px) {
-    display: flex;
+    display: flex !important;
   }
 }
 

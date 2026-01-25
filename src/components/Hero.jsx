@@ -9,14 +9,12 @@ function Hero() {
   };
 
   const bookBtn = () => {
-    document
-      .querySelector("#booking-section")
-      .scrollIntoView({ behavior: "smooth" });
+    document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
   };
 
   useEffect(() => {
     const onPageScroll = () => {
-      if (window.pageYOffset > 600) {
+      if (window.pageYOffset > 200) {
         setGoUp(true);
       } else {
         setGoUp(false);
@@ -49,16 +47,6 @@ function Hero() {
                 >
                   Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </button>
-                <button
-                  onClick={() =>
-                    document
-                      .querySelector("#about")
-                      ?.scrollIntoView({ behavior: "smooth" })
-                  }
-                  className="hero-content__text__btns__learn-more"
-                >
-                  Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
-                </button>
               </div>
             </div>
 
@@ -77,7 +65,20 @@ function Hero() {
           onClick={scrollToTop}
           className={`scroll-up ${goUp ? "show-scroll" : ""}`}
         >
-          <i className="fa-solid fa-angle-up"></i>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            <polyline points="6 15 12 9 18 15" />
+          </svg>
         </div>
       </section>
     </>
