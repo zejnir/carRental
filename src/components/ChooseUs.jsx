@@ -17,18 +17,18 @@ function ChooseUs() {
             />
             <div className="text-container">
               <div className="text-container__left">
-                <h4>Why Choose Us</h4>
-                <h2>Best valued deals you will ever find</h2>
+                <h4>Zašto baš mi</h4>
+                <h2>Najpovoljnije ponude koje ćete pronaći</h2>
                 <p>
-                  Discover the best deals you'll ever find with our unbeatable
-                  offers. We're dedicated to providing you with the best value
-                  for your money, so you can enjoy top-quality services and
-                  products without breaking the bank. Our deals are designed to
-                  give you the ultimate renting experience, so don't miss out on
-                  your chance to save big.
+                  Pronađite najbolje ponude sa našim neprevaziđenim akcijama.
+                  Posvećeni smo tome da dobijete najviše vrednosti za svoj
+                  novac, kako biste uživali u uslugama i proizvodima vrhunskog
+                  kvaliteta bez previsokih izdataka. Naše ponude su osmišljene
+                  da vam pruže vrhunsko iskustvo iznajmljivanja — ne propustite
+                  priliku da značajno uštedite.
                 </p>
                 <a href="#about">
-                  Find Details &nbsp;
+                  Saznaj više &nbsp;
                   <i className="fa-solid fa-angle-right"></i>
                 </a>
               </div>
@@ -37,10 +37,10 @@ function ChooseUs() {
                   {/* TODO: I need blue icons here, maybe u can use this site for icons: https://undraw.co/ */}
                   <img src={Box1} alt="car-img" />
                   <div className="text-container__right__box__text">
-                    <h4>Cross Country Drive</h4>
+                    <h4>Vožnja kroz celu zemlju</h4>
                     <p>
-                      Take your driving experience to the next level with our
-                      top-notch vehicles for your cross-country adventures.
+                      Podignite svoje iskustvo vožnje na viši nivo uz naša
+                      vrhunska vozila namenjena međugradskim avanturama.
                     </p>
                   </div>
                 </div>
@@ -48,10 +48,11 @@ function ChooseUs() {
                   {" "}
                   <img src={Box2} alt="coin-img" />
                   <div className="text-container__right__box__text">
-                    <h4>All Inclusive Pricing</h4>
+                    <h4>Cena sa svime uključenim</h4>
                     <p>
-                      Get everything you need in one convenient, transparent
-                      price with our all-inclusive pricing policy.
+                      Dobijate sve što vam treba po jednoj preglednoj i
+                      transparentnoj ceni zahvaljujući politici cena koja
+                      obuhvata sve.
                     </p>
                   </div>
                 </div>
@@ -59,10 +60,10 @@ function ChooseUs() {
                   {" "}
                   <img src={Box3} alt="coin-img" />
                   <div className="text-container__right__box__text">
-                    <h4>No Hidden Charges</h4>
+                    <h4>Bez skrivenih troškova</h4>
                     <p>
-                      Enjoy peace of mind with our no hidden charges policy. We
-                      believe in transparent and honest pricing.
+                      Uživajte u miru znajući da nema skrivenih troškova. Mi
+                      verujemo u transparentno i pošteno formiranje cena.
                     </p>
                   </div>
                 </div>

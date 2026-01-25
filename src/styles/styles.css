@@ -145,20 +145,27 @@ body {
 }
 
 .mobile-hamb {
-  font-size: 2.8rem;
+  font-size: 3.6rem;
   display: none;
   cursor: pointer;
   transition: all 0.3s;
-  position: fixed;
+  position: absolute;
   right: 1rem;
-  top: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 100005;
   color: #000;
-  background-color: rgba(255, 255, 255, 0.95);
-  padding: 0.6rem;
-  border-radius: 50%;
+  /* removed white background to make icon transparent */
+  padding: 0.2rem 0.4rem;
+  border-radius: 6px;
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+.mobile-hamb svg {
+  width: 1em;
+  height: 1em;
+  display: block;
 }
 .mobile-hamb:hover {
   color: #0d4083;

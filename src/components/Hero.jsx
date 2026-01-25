@@ -32,20 +32,21 @@ function Hero() {
         <div className="container">
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
+              <h4>Planirajte svoje putovanje sada</h4>
               <h1>
-                Save <span>big</span> with our car rental
+                Uštedite <span>mnogo</span> uz naš rent-a-car
               </h1>
               <p>
-                Rent the car of your dreams. Unbeatable prices, unlimited miles,
-                flexible pick-up options and much more.
+                Iznajmite automobil iz snova. Neuporedive cene, neograničena
+                kilometraža, fleksibilne opcije preuzimanja i još mnogo toga.
               </p>
               <div className="hero-content__text__btns">
                 <button
                   onClick={bookBtn}
                   className="hero-content__text__btns__book-ride"
                 >
-                  Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
+                  Rezervišite vožnju &nbsp;{" "}
+                  <i className="fa-solid fa-circle-check"></i>
                 </button>
               </div>
             </div>

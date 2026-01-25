@@ -19,7 +19,7 @@ function CarBox({ data, carID }) {
           {/* description */}
           <div className="pick-description">
             <div className="pick-description__price">
-              <span>${car.price}</span>/ rent per day
+              <span>${car.price}</span>/ cena po danu
             </div>
             <div className="pick-description__table">
               <div className="pick-description__table__col">
@@ -28,38 +28,38 @@ function CarBox({ data, carID }) {
               </div>
 
               <div className="pick-description__table__col">
-                <span>Mark</span>
+                <span>Marka</span>
                 <span>{car.mark}</span>
               </div>
 
               <div className="pick-description__table__col">
-                <span>Year</span>
+                <span>Godina</span>
                 <span>{car.year}</span>
               </div>
 
               <div className="pick-description__table__col">
-                <span>Doors</span>
+                <span>Vrata</span>
                 <span>{car.doors}</span>
               </div>
 
               <div className="pick-description__table__col">
-                <span>AC</span>
+                <span>Klima</span>
                 <span>{car.air}</span>
               </div>
 
               <div className="pick-description__table__col">
-                <span>Transmission</span>
+                <span>Menjač</span>
                 <span>{car.transmission}</span>
               </div>
 
               <div className="pick-description__table__col">
-                <span>Fuel</span>
+                <span>Gorivo</span>
                 <span>{car.fuel}</span>
               </div>
             </div>
             {/* btn cta */}
             <a className="cta-btn" href="#booking-section">
-              Reserve Now
+              Rezerviši sada
             </a>
           </div>
         </div>

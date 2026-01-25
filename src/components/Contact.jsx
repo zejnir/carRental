@@ -5,11 +5,10 @@ function Contact() {
         <div className="container">
           <div className="contact-div">
             <div className="contact-div__text">
-              <h2>Need additional information?</h2>
+              <h2>Trebate dodatne informacije?</h2>
               <p>
-                A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
-                years of experience.
+                Svestran stručnjak sa iskustvom u istraživanju i razvoju, kao i
+                specijalista za obuku. Više od 15 godina iskustva.
               </p>
               <a href="/">
                 <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
@@ -25,23 +24,23 @@ function Contact() {
             <div className="contact-div__form">
               <form>
                 <label>
-                  Full Name <b>*</b>
+                  Ime i prezime <b>*</b>
                 </label>
-                <input type="text" placeholder='E.g: "Joe Shmoe"'></input>
+                <input type="text" placeholder='Npr: "Jovan Jović"'></input>
 
                 <label>
                   Email <b>*</b>
                 </label>
-                <input type="email" placeholder="youremail@example.com"></input>
+                <input type="email" placeholder="vasemail@primer.com"></input>
 
                 <label>
-                  Tell us about it <b>*</b>
+                  Ispričajte nam ukratko <b>*</b>
                 </label>
-                <textarea placeholder="Write Here.."></textarea>
+                <textarea placeholder="Napišite ovde..."></textarea>
 
                 <button type="submit">
-                  <i className="fa-solid fa-envelope-open-text"></i>&nbsp; Send
-                  Message
+                  <i className="fa-solid fa-envelope-open-text"></i>&nbsp;
+                  Pošalji poruku
                 </button>
               </form>
             </div>

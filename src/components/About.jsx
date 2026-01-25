@@ -15,36 +15,34 @@ function AboutSection() {
               alt="car-renting"
             />
             <div className="about-main__text">
-              <h3>About Company</h3>
-              <h2>You start the engine and your adventure begins</h2>
+              <h3>O kompaniji</h3>
+              <h2>Upalite motor i vaša avantura počinje</h2>
               <p>
-                Certain but she but shyness why cottage. Guy the put instrument
-                sir entreaties affronting. Pretended exquisite see cordially the
-                you. Weeks quiet do vexed or whose. Motionless if no to
-                affronting imprudence no precaution. My indulged as disposal
-                strongly attended.
+                Pouzdana kompanija posvećena bezbednosti i kvalitetu. Naše
+                iskustvo i posvećenost klijentima garantuju bezbrižno putovanje
+                — vozila su redovno održavana i spremna za svaku rutu.
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
                   {/* TODO: I need blue icons here, maybe u can use this site for icons: https://undraw.co/ */}
-                  <img src={Box1} alt="car-icon" />
+                  <img src={Box1} alt="ikonica-automobila" />
                   <span>
                     <h4>20</h4>
-                    <p>Car Types</p>
+                    <p>Tipovi automobila</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
-                  <img src={Box2} alt="car-icon" />
+                  <img src={Box2} alt="ikonica" />
                   <span>
                     <h4>85</h4>
-                    <p>Rental Outlets</p>
+                    <p>Filijale</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
-                  <img src={Box3} alt="car-icon" className="last-fk" />
+                  <img src={Box3} alt="ikonica" className="last-fk" />
                   <span>
                     <h4>75</h4>
-                    <p>Repair Shop</p>
+                    <p>Servis</p>
                   </span>
                 </div>
               </div>
