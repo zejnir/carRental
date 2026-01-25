@@ -1,5 +1,6 @@
 @use "./colors" as *;
 @use "./typhography" as *;
+@use "sass:color" as color;
 
 * {
   box-sizing: border-box;
@@ -61,5 +62,5 @@ body {
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: darken(#0d4083, 10%);
+  background-color: color.adjust(#0d4083, $lightness: -10%);
 }
