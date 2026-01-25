@@ -5,7 +5,7 @@ import Drive from "../images/plan/icon3.png";
 function PlanTrip() {
   return (
     <>
-      <section className="plan-section">
+      <section id="plan" className="plan-section">
         <div className="container">
           <div className="plan-container">
             <div className="plan-container__title">

@@ -4,7 +4,7 @@ import Img3 from "../images/testimonials/pfp2.jpg";
 function Testimonials() {
   return (
     <>
-      <section className="testimonials-section">
+      <section id="testimonials" className="testimonials-section">
         <div className="container">
           <div className="testimonials-content">
             <div className="testimonials-content__title">

@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
-import HeroCar from "../images/hero/main-car.png";
 import { useEffect, useState } from "react";
+import HeroCar from "../images/hero/main-car.png";
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);
@@ -44,16 +43,22 @@ function Hero() {
                 flexible pick-up options and much more.
               </p>
               <div className="hero-content__text__btns">
-                <Link
+                <button
                   onClick={bookBtn}
                   className="hero-content__text__btns__book-ride"
-                  to="/"
                 >
                   Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
-                </Link>
-                <Link className="hero-content__text__btns__learn-more" to="/">
+                </button>
+                <button
+                  onClick={() =>
+                    document
+                      .querySelector("#about")
+                      ?.scrollIntoView({ behavior: "smooth" })
+                  }
+                  className="hero-content__text__btns__learn-more"
+                >
                   Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
-                </Link>
+                </button>
               </div>
             </div>
 

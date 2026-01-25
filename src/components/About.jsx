@@ -6,7 +6,7 @@ import Box3 from "../images/about/icon3.png";
 function AboutSection() {
   return (
     <>
-      <section className="about-page">
+      <section id="about" className="about-page">
         <div className="container">
           <div className="about-main">
             <img

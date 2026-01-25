@@ -6,7 +6,7 @@ import Box3 from "../images/chooseUs/icon3.png";
 function ChooseUs() {
   return (
     <>
-      <section className="choose-section">
+      <section id="choose" className="choose-section">
         <div className="container">
           <div className="choose-container">
             {/* TODO: This image is horible tbh */}

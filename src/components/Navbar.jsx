@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Logo from "../images/logo/logo.png";
 import { useState } from "react";
 
@@ -17,92 +16,87 @@ function Navbar() {
           <div onClick={openNav} className="mobile-navbar__close">
             <i className="fa-solid fa-xmark"></i>
           </div>
-          <ul className="mobile-navbar__links">
+          <div className="mobile-navbar__links">
             <li>
-              <Link onClick={openNav} to="/">
+              <a onClick={openNav} href="#home">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link onClick={openNav} to="/about">
-                About
-              </Link>
+              <a onClick={openNav} href="#choose">
+                Choose
+              </a>
             </li>
             <li>
-              <Link onClick={openNav} to="/models">
+              <a onClick={openNav} href="#models">
                 Models
-              </Link>
+              </a>
             </li>
             <li>
-              <Link onClick={openNav} to="/testimonials">
-                Testimonials
-              </Link>
+              <a onClick={openNav} href="#plan">
+                Plan Trip
+              </a>
             </li>
             <li>
-              <Link onClick={openNav} to="/team">
-                Our Team
-              </Link>
-            </li>
-            <li>
-              <Link onClick={openNav} to="/contact">
+              <a onClick={openNav} href="#contact">
                 Contact
-              </Link>
+              </a>
             </li>
-          </ul>
+            <li>
+              <a onClick={openNav} href="#about">
+                About
+              </a>
+            </li>
+          </div>
         </div>
 
         {/* desktop */}
 
         <div className="navbar">
           <div className="navbar__img">
-            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <a href="#home" onClick={() => window.scrollTo(0, 0)}>
               <img src={Logo} alt="logo-img" />
-            </Link>
+            </a>
           </div>
           <ul className="navbar__links">
             <li>
-              <Link className="home-link" to="/">
+              <a className="home-link" href="#home">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              {" "}
-              <Link className="about-link" to="/about">
-                About
-              </Link>
+              <a className="choose-link" href="#choose">
+                Choose
+              </a>
             </li>
             <li>
-              {" "}
-              <Link className="models-link" to="/models">
+              <a className="models-link" href="#models">
                 Vehicle Models
-              </Link>
+              </a>
             </li>
             <li>
-              {" "}
-              <Link className="testi-link" to="/testimonials">
-                Testimonials
-              </Link>
+              <a className="plan-link" href="#plan">
+                Plan Trip
+              </a>
             </li>
             <li>
-              {" "}
-              <Link className="team-link" to="/team">
-                Our Team
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link className="contact-link" to="/contact">
+              <a className="contact-link" href="#contact">
                 Contact
-              </Link>
+              </a>
+            </li>
+            <li>
+              <a className="about-link" href="#about">
+                About
+              </a>
             </li>
           </ul>
           <div className="navbar__buttons">
-            <Link className="navbar__buttons__sign-in" to="/">
+            <a className="navbar__buttons__sign-in" href="#">
               Sign In
-            </Link>
-            <Link className="navbar__buttons__register" to="/">
+            </a>
+            <a className="navbar__buttons__register" href="#">
               Register
-            </Link>
+            </a>
           </div>
 
           {/* mobile */}

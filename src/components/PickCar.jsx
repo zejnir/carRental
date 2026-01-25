@@ -16,7 +16,7 @@ function PickCar() {
 
   return (
     <>
-      <section className="pick-section">
+      <section id="models" className="pick-section">
         <div className="container">
           <div className="pick-container">
             <div className="pick-container__title">
