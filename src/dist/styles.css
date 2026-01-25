@@ -135,7 +135,7 @@ body {
 }
 .navbar__buttons__register:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
-  background-color: #71a5f8;
+  background-color: #1863dc;
 }
 .navbar__buttons a {
   text-decoration: none;
@@ -302,7 +302,7 @@ body {
 }
 .hero-content__text__btns__book-ride:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #71a5f8;
+  background-color: #1863dc;
 }
 .hero-content__text__btns__learn-more {
   background-color: #010103;
@@ -1162,7 +1162,7 @@ body {
 }
 .text-container__left a:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #71a5f8;
+  background-color: #1863dc;
 }
 .text-container__right {
   display: flex;
@@ -1594,7 +1594,7 @@ footer {
 }
 .submit-email:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.4);
-  background-color: #71a5f8;
+  background-color: #1863dc;
 }
 
 .hero-pages {
@@ -1919,7 +1919,7 @@ footer {
 }
 .models-div__box__descr__name-price__btn:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #71a5f8;
+  background-color: #1863dc;
 }
 .models-div__box__descr__name-price__btn a {
   text-decoration: none;
@@ -2083,5 +2083,5 @@ footer {
 }
 .contact-div__form form button:hover {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #71a5f8;
+  background-color: #1863dc;
 } /*# sourceMappingURL=styles.css.map */

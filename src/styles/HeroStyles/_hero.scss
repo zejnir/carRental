@@ -106,7 +106,7 @@
         background-color: $text-orange;
         padding: 1.8rem 3rem;
         border-radius: 0.3rem;
-        box-shadow: 0 10px 15px 0 rgba(82, 148, 255, 0.4);
+        box-shadow: 0 10px 15px 0 rgba(22, 69, 145, 0.4);
         transition: all 0.3s;
         border: 2px solid $text-orange;
 
@@ -115,8 +115,8 @@
         }
 
         &:hover {
-          box-shadow: 0 10px 15px 0 rgba(82, 148, 255, 0.6);
-          background-color: #71a5f8;
+          box-shadow: 0 10px 15px 0 rgba(2, 48, 123, 0.6);
+          background-color: #1863dc;
         }
       }
 
