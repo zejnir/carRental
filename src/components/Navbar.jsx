@@ -91,11 +91,8 @@ function Navbar() {
             </li>
           </ul>
           <div className="navbar__buttons">
-            <a className="navbar__buttons__sign-in" href="#">
-              Sign In
-            </a>
-            <a className="navbar__buttons__register" href="#">
-              Register
+            <a className="navbar__buttons__register" href="#contact">
+              Kontkatirajte nas
             </a>
           </div>
 
