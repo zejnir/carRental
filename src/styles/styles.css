@@ -25,7 +25,7 @@ body {
 * {
   scrollbar-width: thin;
   /* thumb track */
-  scrollbar-color: #3B82F6 #ffffff;
+  scrollbar-color: #3b82f6 #ffffff;
 }
 
 /* Chrome, Edge and Safari */
@@ -49,11 +49,11 @@ body {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #3B82F6;
+  background-color: #3b82f6;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #3B82F6;
+  background-color: #3b82f6;
 }
 
 *::-webkit-scrollbar-thumb:active {
