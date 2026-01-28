@@ -19,7 +19,9 @@ function CarBox({ data, carID }) {
           {/* description */}
           <div className="pick-description">
             <div className="pick-description__price">
-              <span>${car.price}</span>/ cena po danu
+              <span>
+                {car.model} {car.mark}
+              </span>
             </div>
             <div className="pick-description__table">
               <div className="pick-description__table__col">
@@ -58,7 +60,7 @@ function CarBox({ data, carID }) {
               </div>
             </div>
             {/* btn cta */}
-            <a className="cta-btn" href="#booking-section">
+            <a className="cta-btn" href="#contact">
               Rezerviši sada
             </a>
           </div>

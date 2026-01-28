@@ -27,21 +27,21 @@ function AboutSection() {
                   {/* TODO: I need blue icons here, maybe u can use this site for icons: https://undraw.co/ */}
                   <img src={Box1} alt="ikonica-automobila" />
                   <span>
-                    <h4>20</h4>
-                    <p>Tipovi automobila</p>
+                    <h4>20+</h4>
+                    <p>Tipova automobila</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
                   <img src={Box2} alt="ikonica" />
                   <span>
-                    <h4>85</h4>
+                    <h4>2</h4>
                     <p>Filijale</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
                   <img src={Box3} alt="ikonica" className="last-fk" />
                   <span>
-                    <h4>75</h4>
+                    <h4>1</h4>
                     <p>Servis</p>
                   </span>
                 </div>

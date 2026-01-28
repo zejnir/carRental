@@ -10,15 +10,15 @@ function Contact() {
                 Svestran stručnjak sa iskustvom u istraživanju i razvoju, kao i
                 specijalista za obuku. Više od 15 godina iskustva.
               </p>
-              <a href="/">
-                <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
+              <a href="tel:+38163405969">
+                <i className="fa-solid fa-phone"></i>&nbsp; +381 63 405969
+              </a>
+              <a href="mailto:info@we-rent.rs">
+                <i className="fa-solid fa-envelope"></i>&nbsp; info@we-rent.rs
               </a>
               <a href="/">
-                <i className="fa-solid fa-envelope"></i>&nbsp; carrental@xyz.com
-              </a>
-              <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Bengaluru,
-                Karnatka
+                <i className="fa-solid fa-location-dot"></i>&nbsp; BULEVAR
+                VOJVODE MIŠIĆA 24, 11000, Beograd (Savski Venac), Srbija
               </a>
             </div>
             <div className="contact-div__form">

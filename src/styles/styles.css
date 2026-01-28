@@ -398,6 +398,12 @@ body {
 .book-section {
   position: relative;
   background: linear-gradient(to bottom, #f8f8f8 20%, #ffffff 80%);
+
+  @media (max-width: 800px) {
+    .footer-desc {
+      max-width: 100%;
+    }
+  }
 }
 
 .book-content {
@@ -755,31 +761,37 @@ body {
 .info-form__1col {
   grid-template-columns: 1fr !important;
 }
-.info-form__2col, .info-form__1col {
+.info-form__2col,
+.info-form__1col {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   padding: 1rem 0;
 }
 @media (max-width: 650px) {
-  .info-form__2col, .info-form__1col {
+  .info-form__2col,
+  .info-form__1col {
     grid-template-columns: 1fr;
   }
 }
-.info-form__2col span, .info-form__1col span {
+.info-form__2col span,
+.info-form__1col span {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
 }
-.info-form__2col span label, .info-form__1col span label {
+.info-form__2col span label,
+.info-form__1col span label {
   font-size: 1.6rem;
   font-weight: 500;
   color: #777777;
 }
-.info-form__2col span label b, .info-form__1col span label b {
+.info-form__2col span label b,
+.info-form__1col span label b {
   color: #0d4083;
 }
-.info-form__2col span input, .info-form__1col span input {
+.info-form__2col span input,
+.info-form__1col span input {
   padding: 14px 15px;
   background-color: #dbdbdb;
   color: #555;
@@ -1127,6 +1139,7 @@ body {
 .choose-container {
   display: flex;
   flex-direction: column;
+  padding: 20px 0;
 }
 .choose-container__img {
   width: 90%;
@@ -1562,7 +1575,8 @@ footer {
   line-height: 1.7;
   margin-bottom: 3rem;
 }
-.footer-content__1 li:nth-child(3), .footer-content__1 li:nth-child(4) {
+.footer-content__1 li:nth-child(3),
+.footer-content__1 li:nth-child(4) {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -1929,7 +1943,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
   -moz-column-gap: 7rem;
-       column-gap: 7rem;
+  column-gap: 7rem;
   margin-top: 2.5rem;
   margin: 2rem auto;
   padding-bottom: 2.5rem;
@@ -2121,4 +2135,4 @@ footer {
 .contact-div__form form button:hover {
   box-shadow: 0 10px 15px 0 rgba(2, 48, 123, 0.6);
   background-color: #1863dc;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */

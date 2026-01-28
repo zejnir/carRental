@@ -8,27 +8,27 @@ function Footer() {
               <li>
                 <span>CAR</span> Rental
               </li>
-              <li>
-                We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+              <li className="footer-desc">
+                Nudimo širok izbor vozila za sve vaše potrebe. Imamo idealan
+                automobil koji odgovara vašim zahtevima.
               </li>
               <li>
-                <a href="tel:123456789">
-                  <i className="fa-solid fa-phone"></i> &nbsp; (123) -456-789
+                <a href="tel:+38163405969">
+                  <i className="fa-solid fa-phone"></i> &nbsp; +381 63 405969
                 </a>
               </li>
 
               <li>
                 <a
                   href="mailto: 
-                carrental@gmail.com"
+                info@we-rent.rs"
                 >
                   <i className="fa-solid fa-envelope"></i>
-                  &nbsp; carrental@xyz.com
+                  &nbsp; info@we-rent.rs
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a
                   style={{ fontSize: "14px" }}
                   target="_blank"
@@ -37,45 +37,30 @@ function Footer() {
                 >
                   Design with ❤️ by Rahul
                 </a>
-              </li>
+              </li> */}
             </ul>
 
             <ul className="footer-content__2">
-              <li>Company</li>
+              <li>Meni</li>
               <li>
-                <a href="#home">Gallery</a>
+                <a href="#home">Početna</a>
               </li>
               <li>
-                <a href="#home">Careers</a>
+                <a href="#choose">Zašto baš mi</a>
               </li>
               <li>
-                <a href="#home">Mobile</a>
+                <a href="#models">Vozila</a>
               </li>
               <li>
-                <a href="#home">Blog</a>
+                <a href="#contact">Kontakt</a>
               </li>
               <li>
-                <a href="#home">How we work</a>
-              </li>
-            </ul>
-
-            <ul className="footer-content__2">
-              <li>Working Hours</li>
-              <li>Mon - Fri: 9:00AM - 9:00PM</li>
-              <li>Sat: 9:00AM - 19:00PM</li>
-              <li>Sun: Closed</li>
-            </ul>
-
-            <ul className="footer-content__2">
-              <li>Subscription</li>
-              <li>
-                <p>Subscribe your Email address for latest news & updates.</p>
+                <a href="#about">O nama</a>
               </li>
               <li>
-                <input type="email" placeholder="Enter Email Address"></input>
-              </li>
-              <li>
-                <button className="submit-email">Submit</button>
+                <a className="footer-contact" href="#contact">
+                  Kontaktirajte nas
+                </a>
               </li>
             </ul>
           </div>

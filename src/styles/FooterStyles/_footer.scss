@@ -8,8 +8,9 @@ footer {
 .footer-content {
   display: grid;
   color: #010103;
-  grid-template-columns: 27fr 21fr 21fr 21fr;
-  gap: 8rem;
+  /* two-column layout: flexible left column and fixed/right column */
+  grid-template-columns: 1fr 30rem;
+  gap: 4rem;
   justify-content: center;
   text-align: left;
   color: $text-black;
@@ -20,6 +21,15 @@ footer {
 
   @media (max-width: 650px) {
     grid-template-columns: 1fr;
+  }
+
+  .footer-desc {
+    max-width: 40%;
+    word-wrap: break-word;
+
+    @media (max-width: 650px) {
+      max-width: 100%;
+    }
   }
 
   &__1 {
@@ -72,6 +82,9 @@ footer {
 
     @media (max-width: 650px) {
       text-align: center;
+      li:nth-child(1) {
+        text-align: center;
+      }
     }
 
     a {

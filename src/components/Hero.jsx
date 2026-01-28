@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import HeroCar from "../images/hero/main-car.png";
+import HeroCar from "../images/hero/merc.png";
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);

@@ -1,4 +1,4 @@
-import Logo from "../images/logo/logo.png";
+import Logo from "../images/logo/logo_werent.png";
 import { useState } from "react";
 
 function Navbar() {
